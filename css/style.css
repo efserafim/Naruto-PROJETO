@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.lateral-menu {
+    background: #ffa500;
+    width: 250px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vila-icon {
+    width: 90px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px; 
+
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+  
