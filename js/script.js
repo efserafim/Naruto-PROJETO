@@ -24,7 +24,7 @@ selectedVila = vila;
    }`
    
   requestApi(leaf).then(res => {
-    totalPages = res.characters.info.count / 100
+    totalPages = res.characters.info.count / 20
     showVilageMembers(res)
 })
   requestApi(leaf).then(res => showVilageMembers(res))
